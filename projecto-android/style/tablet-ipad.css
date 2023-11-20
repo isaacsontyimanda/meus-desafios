@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+/*
+    Configurações para tablet & ipads
+*/
+
+span.material-symbols-outlined {
+    display: none;
+}
+
+header > menu {
+    display: block;
+    background-color: var(--cor5);
+    text-align: left;
+}
+
+menu > a {
+    display: inline;
+    background-color: var(--cor4);
+    color: white;
+    border-radius: 3px;
+    border: 0px;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+div.youtube {
+    height: 400px;
+}
+
+iframe {
+    height: 90%;
+    width: 93%;
+}
+
+ul {
+    columns: 2;
+    margin-left: 20px;
+}
+
+li::before {
+    content: '✔ ';
+}

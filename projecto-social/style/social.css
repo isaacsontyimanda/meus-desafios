@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+/*
+    Configurações para Redes Sociais
+*/
+
+img {
+    width: 100vw;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+user agent stylesheet
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+
+p {
+    background-color: blue;
+    text-align: center;
+    padding: 10px;
+}
+
+p:hover {
+    background-color: red;
+}
+
+p > a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+p > a:hover {
+    text-decoration: underline;
+}

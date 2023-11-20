@@ -1,0 +1,156 @@
+@charset "UTF-8";
+
+/*
+    Configurações Gerais & Mobile First
+*/
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+html, body {
+    background-image: linear-gradient(to bottom, #0dcaf0c9, #d63384b9);
+    width: 100vw;
+    height: 100vh;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+section#login {
+    background-color: white;
+    border-radius: 20px;
+    width: 300px;
+    height: 600px;
+    overflow: hidden;
+
+    position: absolute;
+    
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: width .8s, heith .8s;
+}
+
+section#login > div#img {
+    width: 100%;
+    height: 240px;
+    background: url(../imgs/espaco.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+section#login > div#form > h1 {
+    text-align: center;
+    padding: 6px;
+}
+
+section#login > div#form > p {
+    text-align: justify;
+    line-height: 1.3em;
+    padding: 6px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+div#campo01 {
+    width: 90%;
+    background-color: #6f42c1;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 3px;
+    margin: auto;
+    margin-bottom: 5px;
+}
+
+div#campo01 > input {
+    width: calc(100% - 62px);
+    height: 30px;
+    background-color: aquamarine;
+    border: 2px solid #6f42c1;
+    border-radius: 10px;
+    padding-left: 6px;
+}
+
+div#campo01 > input:focus-within {
+    background-color: white;
+}
+
+div#campo02 > input:focus-within {
+    background-color: white;
+}
+
+div#campo02 {
+    width: 90%;
+    background-color: #6f42c1;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 3px;
+    margin: auto;
+    margin-bottom: 5px;
+}
+
+div#campo02 > input {
+    width: calc(100% - 60px);
+    height: 30px;
+    background-color: aquamarine;
+    border: 2px solid #6f42c1;
+    border-radius: 10px;
+    padding-left: 6px;
+}
+
+div#entrar {
+    width: 90%;
+    background-color: #20c997;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 3px;
+    margin: auto;
+    margin-bottom: 5px;
+}
+
+div#entrar > input {
+    height: 30px;
+    display: block;
+    background-color: #20c997;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin: auto;
+}
+
+div#esqueci {
+    width: 90%;
+    background-color: #20c99611;
+    border: 1px solid #20c997;
+    border-radius: 5px;
+    margin: auto;
+}
+
+div#esqueci > a {
+    text-decoration: none;
+    text-align: center;
+    height: 33px;
+    display: block;
+    color: black;
+    padding-top: 8px;
+}
+
+div#esqueci > a:hover {
+    background-color: #20c99679;
+    text-decoration: underline;
+}
+
+abbr {
+    text-decoration: none;
+}

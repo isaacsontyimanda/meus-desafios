@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Login</title>
+    <link rel="stylesheet" href="style/style.css" media="all">
+    <link rel="stylesheet" href="style/media-queries.css">
+</head>
+<body>
+    <main>
+        <section id="login">
+            <div id="img">
+            </div>
+            <div id="form">
+                <h1>Login</h1>
+                <p>
+                    Seje bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.
+                </p>
+                <form action="form/login.php" target="_blank" method="post" autocomplete="on">
+                    <div id="campo01">
+                        <label for="iemail">E-mail</label>
+                        <input type="email" name="email" id="iemail" autocomplete="email" required placeholder="seu-email">
+                    </div>
+                    <div id="campo02">
+                        <label for="isenha">Senha</label>
+                        <input type="password" name="senha" id="isenha" autocomplete="current-password" required placeholder="sua-senha" minlength="4" maxlength="8">
+                    </div>
+                    <abbr title="Depois de inserires os dados clique aqui!, para logar.😎">
+                        <div id="entrar">
+                            <input type="submit" value="Entrar">
+                        </div>
+                    </abbr>
+                    <abbr title="Recupere sua senha aqui!😉">
+                        <div id="esqueci">
+                            <a href="esqueci.html">
+                                Esqueci a senha
+                            </a>
+                        </div>
+                    </abbr>
+                </form>
+            </div>
+            </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+/*
+    Configuração para a tela home
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    width: 100vw;
+    height: 100vh;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+
+body {
+    height: 95vh;
+    background: url(../img/fundo-madeira.jpg) no-repeat center top;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+section#telefone {
+    width: 314px;
+    height: 627px;
+    background: url(../img/frame-iphone.png) no-repeat center center;
+    background-size: auto;
+    background-attachment: fixed;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+}
+
+iframe#tela {
+    width: 267px;
+    height: 471px;
+    margin-left: 24px;
+    margin-top: 80px;
+}
+
+div.alinhamento {
+    text-align: right;
+}
+
+a > img.botao {
+    width: 55px;
+    border-radius: 50%;
+    box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.514);
+    margin-bottom: 10px;
+}
+
+a > img.botao:hover {
+    border: 2px solid white;
+    box-shadow: 0px 3px 3px 3px rgba(0, 0, 0, 0.514);
+    transform: translate(-5%, -5%);
+    transition: transform 1s, border .5s, box-shadow .5s;
+}
